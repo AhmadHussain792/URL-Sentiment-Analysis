@@ -21,11 +21,11 @@ The python version and other packages are listed in "REQUIREMENTS.TXT" file
 
 # Code Explanation
 I defined functions for each of the different tasks such as extracting data from PDFs, processing the text and performing sentiment analysis, writing the result to excel file, etc. Then, I defined the 'backend_main' which calls each of the individual functions in sequential order. Details for each function is given bellow:
-'extract_text_from_pdf(url)': Downloads the PDF file from the provided URL and extracts the text.
-'tokenizer(text)': Tokenizes the extracted text into sentences using 'nltk.sent_tokenize'.
-'perform_sentiment_analysis(text, model)': Performs sentiment analysis on each sentence using VADER and returns an aggregated sentiment score across all sentences.
-'overall_sentiment(sentiment_result)': Determines the overall sentiment (positive or negative) based on the compound score.
-'store_results_in_excel(sentiment_list, excel_path)': Stores the sentiment analysis results in an Excel file.
+-'extract_text_from_pdf(url)': Downloads the PDF file from the provided URL and extracts the text.
+-'tokenizer(text)': Tokenizes the extracted text into sentences using 'nltk.sent_tokenize'.
+-'perform_sentiment_analysis(text, model)': Performs sentiment analysis on each sentence using VADER and returns an aggregated sentiment score across all sentences.
+-'overall_sentiment(sentiment_result)': Determines the overall sentiment (positive or negative) based on the compound score.
+-'store_results_in_excel(sentiment_list, excel_path)': Stores the sentiment analysis results in an Excel file.
 
 The GUI has a top label, a label frame which includes buttons and entry widgets for entering the URL and excel file name, and a button in the bottom to start the back-end process. 
 # Final Result

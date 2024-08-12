@@ -20,6 +20,11 @@ The python version and other packages are listed in "REQUIREMENTS.TXT" file
 3. Perform Sentiment Analysis Button: Starts the sentiment analysis process.
 
 # Code Explanation
+
+The flowchart below gives an overview of the code:
+
+![url-flowchart drawio](https://github.com/user-attachments/assets/b187ac05-85dc-4f48-a192-69d96239aec8)
+
 I defined functions for each of the different tasks such as extracting data from PDFs, processing the text and performing sentiment analysis, writing the result to excel file, etc. Then, I defined the 'backend_main' which calls each of the individual functions in sequential order. Details for each function is given bellow:
 
 - `extract_text_from_pdf(url)`: Downloads the PDF file from the provided URL and extracts the text.
